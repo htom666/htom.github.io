@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dahech Hatem — Creative Developer</title>
+  <link href="https://fonts.googleapis.com/css2?family=Syne:wght@400;700;800&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  
+  <canvas id="c"></canvas>
+
+  
+  <div id="vig"></div>
+  <div id="flash"></div>
+
+  
+  <div id="sprog"><div id="spbar"></div></div>
+  <div id="sbadge">[ 00 — INITIALIZING ]</div>
+  <div class="cur-ring" id="cr"></div>
+  <div class="cur-dot"  id="cd"></div>
+  <div id="scrollcue">↓ SCROLL TO EXPLORE</div>
+
+  
+  <div id="loader">
+    <div id="l-arc-wrap">
+      <div id="l-glow"></div>
+      <svg id="l-arc" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <circle cx="65" cy="65" r="58" stroke="rgba(0,229,200,0.08)" stroke-width="1"/>
+        <circle cx="65" cy="65" r="58"
+          stroke="url(#arcGrad)" stroke-width="1"
+          stroke-linecap="round"
+          stroke-dasharray="240 125"
+          stroke-dashoffset="0"/>
+        <circle cx="65" cy="65" r="62" stroke="rgba(0,229,200,0.04)" stroke-width="0.5"/>
+        <defs>
+          <linearGradient id="arcGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+            <stop offset="0%"   stop-color="rgba(0,229,200,0)"/>
+            <stop offset="100%" stop-color="#00e5c8"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      <div id="l-logo">DH</div>
+    </div>
+    <div id="l-status">INITIALIZING</div>
+    <div id="l-track"><div id="l-fill"></div></div>
+    <div id="l-pct"><span id="lpn">0</span>%</div>
+  </div>
+
+  
+  <nav>
+    <a href="#" class="logo">DH_</a>
+    <ul class="nlinks">
+      <li><a href="#about">ABOUT</a></li>
+      <li><a href="#work">WORK</a></li>
+      <li><a href="#contact">CONTACT</a></li>
+    </ul>
+  </nav>
+
+  
+  <section id="hero">
+    <div class="hi">
+      <p class="h-eyebrow" id="heb">CREATIVE DEVELOPER — UX DESIGNER — RESEARCHER</p>
+      <h1 class="h-name">
+        <span class="h-line"><span id="hn1">DAHECH</span></span>
+        <span class="h-line"><span id="hn2">HATEM</span></span>
+      </h1>
+      <p class="h-sub" id="hsub">MSc Candidate &nbsp;·&nbsp; <em>Toyohashi, Japan</em></p>
+      <div class="h-avail" id="havail">OPEN TO WORK — 2025</div>
+    </div>
+    <div class="sh" id="shint">
+      <div class="shl"></div>
+      <span>SCROLL</span>
+    </div>
+  </section>
+
+  
+  <div class="ticker"><div class="tt" id="tt"></div></div>
+
+  
+  <section id="about">
+    <div class="wrap">
+      <div class="ag">
+
+        <div>
+          <p class="slabel rv">[ 01 — ABOUT ]</p>
+          <h2 class="ah rv">Building at the edge of code, design &amp; virtual reality.</h2>
+          <p class="ap rv">I'm Hatem — full-stack developer and UX designer. My MSc thesis at Toyohashi University of Technology investigates how humans perceive social threat inside virtual reality environments, using MetaHuman avatars in Unreal Engine 5.</p>
+          <p class="ap rv">I build things that live where engineering meets experience. Clean systems, immersive XR applications, interfaces that feel as precise as they look.</p>
+          <p class="ap rv">Targeting software engineering and UX/UI roles at international tech companies in Japan.</p>
+          <a href="#contact" class="acta rv" data-mag>LET'S BUILD SOMETHING →</a>
+        </div>
+
+        <div class="rv">
+          <div class="sktable">
+            <div class="sk" data-skidx="01">
+              <div class="sk-inner"></div><div class="sk-scan"></div><div class="sk-glow"></div>
+              <span class="sk-idx">[ 01 ]</span>
+              <p class="skcat">FRONTEND</p>
+              <p class="skval"><span class="sv">React</span> · <span class="sv">TypeScript</span><br><span class="sv">UX/UI</span> · <span class="sv">Figma</span> · <span class="sv">Adobe XD</span></p>
+            </div>
+            <div class="sk" data-skidx="02">
+              <div class="sk-inner"></div><div class="sk-scan"></div><div class="sk-glow"></div>
+              <span class="sk-idx">[ 02 ]</span>
+              <p class="skcat">BACKEND</p>
+              <p class="skval"><span class="sv">Laravel</span> · <span class="sv">PHP</span><br><span class="sv">Python</span> · <span class="sv">Node.js</span></p>
+            </div>
+            <div class="sk" data-skidx="03">
+              <div class="sk-inner"></div><div class="sk-scan"></div><div class="sk-glow"></div>
+              <span class="sk-idx">[ 03 ]</span>
+              <p class="skcat">XR &amp; 3D</p>
+              <p class="skval"><span class="sv">Unreal Engine 5</span><br><span class="sv">MetaHuman</span> · <span class="sv">VR Systems</span></p>
+            </div>
+            <div class="sk" data-skidx="04">
+              <div class="sk-inner"></div><div class="sk-scan"></div><div class="sk-glow"></div>
+              <span class="sk-idx">[ 04 ]</span>
+              <p class="skcat">RESEARCH</p>
+              <p class="skval"><span class="sv">Experimental Psychology</span><br><span class="sv">Data Analysis</span> · <span class="sv">ANOVA</span></p>
+            </div>
+            <div class="sk" data-skidx="05">
+              <div class="sk-inner"></div><div class="sk-scan"></div><div class="sk-glow"></div>
+              <span class="sk-idx">[ 05 ]</span>
+              <p class="skcat">LANGUAGES</p>
+              <p class="skval"><span class="sv">Arabic</span> · <span class="sv">English</span><br><span class="sv">French</span> · <span class="sv">Japanese</span></p>
+            </div>
+            <div class="sk" data-skidx="06">
+              <div class="sk-inner"></div><div class="sk-scan"></div><div class="sk-glow"></div>
+              <span class="sk-idx">[ 06 ]</span>
+              <p class="skcat">TOOLS</p>
+              <p class="skval"><span class="sv">Git</span> · <span class="sv">Three.js</span> · <span class="sv">GSAP</span><br><span class="sv">Blender</span> · <span class="sv">Colab</span></p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="work">
+    <div class="wrap">
+      <div class="whdr">
+        <div>
+          <p class="slabel">[ 02 — WORK ]</p>
+          <h2 class="wh rv">Selected<br>Projects</h2>
+        </div>
+        <span class="wct">04 PROJECTS</span>
+      </div>
+      <div class="plist">
+
+        <div class="prow" data-proj="0">
+          <span class="pn">01</span>
+          <div>
+            <h3 class="pt">VR Social Threat Perception</h3>
+            <div class="ptags">
+              <span class="ptag">UNREAL ENGINE 5</span>
+              <span class="ptag">METAHUMAN</span>
+              <span class="ptag">VR RESEARCH</span>
+              <span class="ptag">PYTHON</span>
+            </div>
+          </div>
+          <span class="pyr">2024 — 2025</span>
+          <span class="parr">↗</span>
+          <span class="ghost-n">01</span>
+          <span class="pshape">ICOSAHEDRON</span>
+        </div>
+
+        <div class="prow" data-proj="1">
+          <span class="pn">02</span>
+          <div>
+            <h3 class="pt">Full-Stack Web Platform</h3>
+            <div class="ptags">
+              <span class="ptag">LARAVEL</span>
+              <span class="ptag">PHP</span>
+              <span class="ptag">REACT</span>
+              <span class="ptag">UI DESIGN</span>
+            </div>
+          </div>
+          <span class="pyr">2023</span>
+          <span class="parr">↗</span>
+          <span class="ghost-n">02</span>
+          <span class="pshape">OCTAHEDRON</span>
+        </div>
+
+        <div class="prow" data-proj="2">
+          <span class="pn">03</span>
+          <div>
+            <h3 class="pt">UX Design System</h3>
+            <div class="ptags">
+              <span class="ptag">FIGMA</span>
+              <span class="ptag">UX RESEARCH</span>
+              <span class="ptag">PROTOTYPING</span>
+              <span class="ptag">ADOBE XD</span>
+            </div>
+          </div>
+          <span class="pyr">2023</span>
+          <span class="parr">↗</span>
+          <span class="ghost-n">03</span>
+          <span class="pshape">TETRAHEDRON</span>
+        </div>
+
+        <div class="prow" data-proj="3">
+          <span class="pn">04</span>
+          <div>
+            <h3 class="pt">Behavioral Data Pipeline</h3>
+            <div class="ptags">
+              <span class="ptag">PYTHON</span>
+              <span class="ptag">STATSMODELS</span>
+              <span class="ptag">DATA VIZ</span>
+              <span class="ptag">COLAB</span>
+            </div>
+          </div>
+          <span class="pyr">2024</span>
+          <span class="parr">↗</span>
+          <span class="ghost-n">04</span>
+          <span class="pshape">ICOSAHEDRON</span>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="contact">
+    <div class="wrap">
+      <p class="slabel rv" style="text-align:center">[ 03 — CONTACT ]</p>
+      <h2 class="ch rv">Let's Build<br><span class="dm">Something</span><br>Real.</h2>
+      <div>
+        <a href="mailto:dahech.hatem@gmail.com" class="cemail rv" data-mag>
+          dahech.hatem@gmail.com
+        </a>
+      </div>
+      <ul class="socials rv">
+        <li><a href="https://github.com/" target="_blank" data-mag>GITHUB</a></li>
+        <li><a href="https://linkedin.com/in/" target="_blank" data-mag>LINKEDIN</a></li>
+        <li><a href="https://x.com/" target="_blank" data-mag>X / TWITTER</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <footer>
+    <span>© 2025 DAHECH HATEM</span>
+    <span>TOYOHASHI, JAPAN</span>
+    <span>BUILT WITH THREE.JS + GSAP</span>
+  </footer>
+
+  
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.4/gsap.min.js"></script>
+
+  
+  <script src="js/scene.js"></script>
+  <script src="js/scroll.js"></script>
+  <script src="js/loader.js"></script>
+  <script src="js/interactions.js"></script>
+
+</body>
+</html>
