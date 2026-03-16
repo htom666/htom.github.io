@@ -9,7 +9,7 @@
 }
 
 *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
-html { scroll-behavior: auto; }
+html { scroll-behavior: auto; overflow-x: hidden; }
 
 body {
   background: var(--bg);
@@ -33,6 +33,8 @@ body::after {
 #c {
   position: fixed; inset: 0; z-index: 0;
   display: block; width: 100% !important; height: 100% !important;
+  touch-action: none;
+  pointer-events: none;
 }
 
 #vig {
@@ -177,6 +179,7 @@ section { position: relative; z-index: 10; }
   height: 100vh; display: flex;
   align-items: center; justify-content: center;
   overflow: hidden; background: transparent;
+  position: relative;
 }
 
 .hi { text-align: center; pointer-events: none; }
@@ -203,6 +206,7 @@ section { position: relative; z-index: 10; }
   font-size: 9px; letter-spacing: 3px; color: var(--muted);
   border: 1px solid var(--border); padding: 9px 16px;
   opacity: 0; white-space: nowrap;
+  overflow: hidden;
 }
 .h-avail::before {
   content: '●'; color: var(--accent); margin-right: 8px; font-size: 7px;
