@@ -503,22 +503,21 @@ footer {
 
 @media (max-width: 768px) {
 
-  
   nav { padding: 18px 20px; }
   .nlinks { gap: 22px; }
   .nlinks a { font-size: 8px; letter-spacing: 2px; }
 
-  
   .wrap { padding: 0 20px; }
 
-  
   #hero { height: 100svh; }
+  .hi { width: 100%; padding: 0 16px; }
   .h-name {
-    font-size: clamp(52px, 16vw, 100px);
-    letter-spacing: -3px;
+    font-size: clamp(40px, 13vw, 80px);
+    letter-spacing: -2px;
+    word-break: break-word;
   }
-  .h-eyebrow { font-size: 7px; letter-spacing: 4px; }
-  .h-sub     { font-size: 9px; letter-spacing: 3px; }
+  .h-eyebrow { font-size: 7px; letter-spacing: 3px; }
+  .h-sub     { font-size: 9px; letter-spacing: 2px; }
   .h-avail   { display: none; }
   .sh        { left: 20px; bottom: 24px; }
 
@@ -572,6 +571,6 @@ footer {
 }
 
 @media (max-width: 420px) {
-  .h-name { font-size: clamp(44px, 18vw, 72px); letter-spacing: -2px; }
+  .h-name { font-size: clamp(36px, 14vw, 56px); letter-spacing: -1px; }
   .nlinks { gap: 16px; }
 }
