@@ -512,9 +512,10 @@ footer {
   #hero { height: 100svh; }
   .hi { width: 100%; padding: 0 16px; }
   .h-name {
-    font-size: clamp(40px, 13vw, 80px);
-    letter-spacing: -2px;
-    word-break: break-word;
+    font-size: clamp(32px, 10vw, 58px);
+    letter-spacing: -1px;
+    word-break: keep-all;
+    white-space: nowrap;
   }
   .h-eyebrow { font-size: 7px; letter-spacing: 3px; }
   .h-sub     { font-size: 9px; letter-spacing: 2px; }
@@ -571,6 +572,6 @@ footer {
 }
 
 @media (max-width: 420px) {
-  .h-name { font-size: clamp(36px, 14vw, 56px); letter-spacing: -1px; }
+  .h-name { font-size: clamp(28px, 9vw, 44px); letter-spacing: 0px; }
   .nlinks { gap: 16px; }
 }
